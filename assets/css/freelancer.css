@@ -15,7 +15,7 @@ p {
 }
 
 section {
-  padding: 6rem 0;
+  padding: 10%;
 }
 
 section h2 {
@@ -81,8 +81,7 @@ section h2 {
 }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 0 0;
   font-weight: 700;
   font-family: 'Montserrat';
 }
@@ -115,8 +114,6 @@ section h2 {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
@@ -146,8 +143,8 @@ section h2 {
 }
 
 header.masthead {
-  padding-top: calc(6rem + 72px);
-  padding-bottom: 6rem;
+  padding-top: calc(5rem + 106px);
+  padding-bottom: 3rem;
 }
 
 header.masthead h1 {
@@ -162,8 +159,8 @@ header.masthead h2 {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(6rem + 106px);
-    padding-bottom: 6rem;
+    padding-top: calc(4rem + 106px);
+    padding-bottom: 4rem;
   }
   header.masthead h1 {
     font-size: 4.75em;
@@ -359,4 +356,9 @@ a:focus, a:hover, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
+}
+
+.row{
+  display: flex;
+  justify-content: space-evenly;
 }
