@@ -362,3 +362,7 @@ a:focus, a:hover, a:active {
   display: flex;
   justify-content: space-evenly;
 }
+
+#resume{
+  text-align: center;
+}
